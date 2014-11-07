@@ -175,6 +175,7 @@ td.song-number {
     position: relative; }
     .player-bar .currently-playing .song-name, .player-bar .currently-playing .artist-name {
       text-align: center;
+      font-size: 12px;
       margin: 0;
       position: absolute;
       width: 100%;
@@ -218,7 +219,7 @@ td.song-number {
 .seek-bar {
   height: 5px;
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 2px;
+  border-right: 2px;
   position: relative;
   cursor: pointer; }
   .seek-bar .fill {
